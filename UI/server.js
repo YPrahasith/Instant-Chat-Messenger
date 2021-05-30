@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to Instant Chat developed by Prahasith,Vivek and Shashank!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to Instant Chat developed by Prahasith,Vivek,Dhanush,Sripal and Sukirth!'));
 
     // Broadcast when a user connects
     socket.broadcast
